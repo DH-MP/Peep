@@ -1,0 +1,8 @@
+<h1> Bacon </h1>
+
+<ul>
+<% @people.each {|person| %>
+<li> <%= link_to person, person_path(person) %> </li>
+<% } %>
+</ul>
+

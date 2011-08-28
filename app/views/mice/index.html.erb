@@ -1,0 +1,7 @@
+<h1> this is Mice</h1>
+
+<ul>
+<% @mice.each {|mouse| %>
+<li> <%= link_to mouse, mouse_path(mouse) %> </li>
+<% } %>
+</ul>
